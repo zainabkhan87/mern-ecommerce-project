@@ -1,6 +1,7 @@
 import './App.css';
 import { Plus, Trash, CheckCircle } from 'react-feather';
 import { useState } from 'react';
+import ThemeToggler from './ThemeToggler';
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
       <div className='brand'>
         <CheckCircle color='#666' size={24}></CheckCircle>
         <h1>TODO APP</h1>
+        <div className='flex justify-end'><ThemeToggler/></div>
       </div>
       <h3>{getCurrentDate()}</h3>
 
@@ -68,6 +70,7 @@ function App() {
         <button className='add-button' onClick={addTodo}>
           <Plus></Plus>
         </button>
+        {/* <ThemeToggler/> */}
       </div>
 
       <div>
