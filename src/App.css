@@ -15,7 +15,7 @@
 body{
   padding: 50px;
   min-height: 100vh;
-  background: #e5e5e5;
+  background: hsl(0, 1%, 47%);
   text-rendering: optimizeSpeed;
   font-family: sans-serif;
   display: flex;
@@ -27,7 +27,7 @@ body{
 .App{
   background: linear-gradient(109deg,#1a1a1a,#0a191e);
   padding: 40px;
-  width: 400px;
+  width: 700px;
   border-radius: 10px;
 }
 
@@ -115,6 +115,13 @@ body{
   border-radius: 5px;
   background-color: var(--black2);
   padding: 5px 10px;
+}
+
+#button{
+  float: right;
+  margin-left: 360px;
+  background-color: rgb(22, 21, 21);
+  color: #666;
 }
 
 
