@@ -17,7 +17,7 @@ function App() {
       setTodo("");
     }
   }
-
+//to get cureent date
   const getCurrentDate = () => {
     const date = new Date();
     const options = { weekday: 'long', day: 'numeric', month: 'long' };
