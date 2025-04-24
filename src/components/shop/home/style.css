@@ -1,0 +1,29 @@
+.slider {
+  appearance: none;
+  -webkit-appearance: none; /* fallback for older WebKit browsers */
+  height: 12px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  transition: opacity 0.2s;
+}
+
+/* WebKit slider thumb */
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%; /* 75% was unusual – usually 50% for a circle */
+  background: #b7791f;
+  cursor: pointer;
+}
+
+/* Firefox slider thumb */
+.slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #b7791f;
+  cursor: pointer;
+}
