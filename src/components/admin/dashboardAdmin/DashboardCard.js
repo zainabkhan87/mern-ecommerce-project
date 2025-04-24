@@ -7,7 +7,6 @@ const DashboardCard = (props) => {
 
   useEffect(() => {
     GetAllData(dispatch);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

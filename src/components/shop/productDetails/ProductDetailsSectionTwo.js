@@ -65,7 +65,6 @@ const ProductDetailsSectionTwo = (props) => {
       layoutData.singleProductDetail ? layoutData.singleProductDetail : ""
     );
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

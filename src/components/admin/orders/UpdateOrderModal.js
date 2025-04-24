@@ -12,7 +12,6 @@ const UpdateOrderModal = (props) => {
   useEffect(() => {
     setOid(data.updateOrderModal.oId);
     setStatus(data.updateOrderModal.status);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data.updateOrderModal.modal]);
 
   const fetchData = async () => {
