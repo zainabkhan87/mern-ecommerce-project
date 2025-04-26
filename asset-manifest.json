@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/zainabkhan87/mern-ecommerce-project/static/css/main.bfdd22ae.css",
-    "main.js": "/zainabkhan87/mern-ecommerce-project/static/js/main.20748f2f.js",
+    "main.js": "/zainabkhan87/mern-ecommerce-project/static/js/main.16152e12.js",
     "index.html": "/zainabkhan87/mern-ecommerce-project/index.html",
     "main.bfdd22ae.css.map": "/zainabkhan87/mern-ecommerce-project/static/css/main.bfdd22ae.css.map",
-    "main.20748f2f.js.map": "/zainabkhan87/mern-ecommerce-project/static/js/main.20748f2f.js.map"
+    "main.16152e12.js.map": "/zainabkhan87/mern-ecommerce-project/static/js/main.16152e12.js.map"
   },
   "entrypoints": [
     "static/css/main.bfdd22ae.css",
-    "static/js/main.20748f2f.js"
+    "static/js/main.16152e12.js"
   ]
 }
