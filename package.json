@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zainabkhan87.github.io/mern-ecommerce-project",
+  "homepage": "https://zainabkhan87.github.io",
   "dependencies": {
     "axios": "^1.8.4",
     "bootstrap": "^5.3.5",
