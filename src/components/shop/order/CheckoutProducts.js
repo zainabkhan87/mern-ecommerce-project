@@ -137,7 +137,7 @@ export const CheckoutComponent = (props) => {
                     style={{ background: "#303031" }}
                   >
                     Pay now
-                  </div> */}
+                  </div> 
                 </div>
               </Fragment>
             ) : (
