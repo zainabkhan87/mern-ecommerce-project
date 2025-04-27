@@ -112,7 +112,7 @@ export const CheckoutComponent = (props) => {
                       placeholder="+92"
                     />
                   </div>
-                   {/* <DropIn
+                    <DropIn
                     options={{
                       authorization: state.clientToken,
                       paypal: {
@@ -120,8 +120,8 @@ export const CheckoutComponent = (props) => {
                       },
                     }}
                     onInstance={(instance) => (state.instance = instance)}
-                  /> */}
-                  {/*<div
+                  /> 
+                  <div
                     onClick={(e) =>
                       pay(
                         data,
